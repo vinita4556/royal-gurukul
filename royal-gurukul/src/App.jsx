@@ -6,6 +6,7 @@ import Courses from "./components/Courses";
 import Hostel from "./components/Hostel";
 import Success from "./components/Success";
 import Videos from "./components/Videos";
+import Instagram from "./components/Instagram";
 
 function App(){
 
@@ -20,6 +21,7 @@ return(
 <Hostel />
 <Success />
 <Videos />
+<Instagram />
 
 </>
 
