@@ -4,6 +4,7 @@ import Nav from "./components/Nav";
 import About from "./components/About";
 import Courses from "./components/Courses";
 import Hostel from "./components/Hostel";
+import Success from "./components/Success";
 
 function App(){
 
@@ -16,6 +17,7 @@ return(
 <About />
 <Courses />
 <Hostel />
+<Success />
 
 </>
 
