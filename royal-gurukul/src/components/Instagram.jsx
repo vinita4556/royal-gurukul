@@ -12,7 +12,7 @@ Follow Us On Instagram
 </h2>
 
 <p>
-See our latest classes, events and student activities.
+Latest updates and student activities.
 </p>
 
 </div>
@@ -22,37 +22,60 @@ See our latest classes, events and student activities.
 <div className="instagram-grid">
 
 
-<div className="insta-card">
-📸
-</div>
-
-
-<div className="insta-card">
-🎓
-</div>
-
-
-<div className="insta-card">
-✨
-</div>
-
-
-<div className="insta-card">
-👑
-</div>
-
-
-
-</div>
-
-
-
-<a 
-className="instagram-btn"
-href="#"
+<a
+href="https://instagram.com/YOUR_USERNAME"
+target="_blank"
+rel="noreferrer"
+className="insta-card"
 >
-View Instagram
+
+📸
+
 </a>
+
+
+
+<a
+href="https://instagram.com/YOUR_USERNAME"
+target="_blank"
+rel="noreferrer"
+className="insta-card"
+>
+
+🎓
+
+</a>
+
+
+
+<a
+href="https://instagram.com/YOUR_USERNAME"
+target="_blank"
+rel="noreferrer"
+className="insta-card"
+>
+
+✨
+
+</a>
+
+
+
+<a
+href="https://instagram.com/YOUR_USERNAME"
+target="_blank"
+rel="noreferrer"
+className="insta-card"
+>
+
+👑
+
+</a>
+
+
+
+</div>
+
 
 
 </section>

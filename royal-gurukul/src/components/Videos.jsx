@@ -1,5 +1,24 @@
 function Videos(){
 
+const videos = [
+{
+title:"Spoken English Tips",
+link:"https://youtube.com/@YOUR_CHANNEL"
+},
+
+{
+title:"Personality Development",
+link:"https://youtube.com/@YOUR_CHANNEL"
+},
+
+{
+title:"Interview Preparation",
+link:"https://youtube.com/@YOUR_CHANNEL"
+}
+
+];
+
+
 return(
 
 <section id="videos" className="videos">
@@ -8,11 +27,11 @@ return(
 <div className="section-title">
 
 <h2>
-Our Videos
+Our YouTube Videos
 </h2>
 
 <p>
-Watch our learning videos and improve your English.
+Learn English through our practical videos.
 </p>
 
 </div>
@@ -22,59 +41,41 @@ Watch our learning videos and improve your English.
 <div className="video-grid">
 
 
-<div className="video-card">
+{
+videos.map((video,index)=>(
+
+
+<a 
+key={index}
+href={video.link}
+target="_blank"
+rel="noreferrer"
+className="video-card"
+>
+
 
 <div className="video-box">
+
 ▶
+
 </div>
+
 
 <h3>
-Spoken English Tips
+{video.title}
 </h3>
 
-<p>
-Daily English speaking practice.
-</p>
-
-</div>
-
-
-
-
-<div className="video-card">
-
-<div className="video-box">
-▶
-</div>
-
-<h3>
-Personality Development
-</h3>
 
 <p>
-Confidence building sessions.
+Click to watch on YouTube
 </p>
 
-</div>
+
+</a>
 
 
-
-
-<div className="video-card">
-
-<div className="video-box">
-▶
-</div>
-
-<h3>
-Interview Preparation
-</h3>
-
-<p>
-Career guidance videos.
-</p>
-
-</div>
+))
+}
 
 
 
@@ -82,6 +83,7 @@ Career guidance videos.
 
 
 </section>
+
 
 )
 
