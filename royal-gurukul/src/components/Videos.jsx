@@ -1,25 +1,28 @@
-function Videos(){
+import React from "react";
+
+
+function Videos() {
 
 const videos = [
 {
 title:"Spoken English Tips",
-link:"https://youtube.com/@YOUR_CHANNEL"
+link:"https://www.youtube.com/watch?v=JsYs_nh-Bjo"
 },
 
 {
 title:"Personality Development",
-link:"https://youtube.com/@YOUR_CHANNEL"
+link:"https://www.youtube.com/watch?v=VIDEO_ID_2"
 },
 
 {
 title:"Interview Preparation",
-link:"https://youtube.com/@YOUR_CHANNEL"
+link:"https://www.youtube.com/watch?v=VIDEO_ID_3"
 }
 
 ];
 
 
-return(
+return (
 
 <section id="videos" className="videos">
 
@@ -42,23 +45,28 @@ Learn English through our practical videos.
 
 
 {
-videos.map((video,index)=>(
+videos.map((video,index)=>{
+
+const videoId = video.link.split("v=")[1];
 
 
-<a 
-key={index}
-href={video.link}
-target="_blank"
-rel="noreferrer"
-className="video-card"
->
+return (
+
+<div className="video-card" key={index}>
 
 
-<div className="video-box">
+<iframe
 
-▶
+src={`https://www.youtube.com/embed/${videoId}`}
 
-</div>
+title={video.title}
+
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+
+allowFullScreen
+
+></iframe>
+
 
 
 <h3>
@@ -67,23 +75,23 @@ className="video-card"
 
 
 <p>
-Click to watch on YouTube
+Click to watch video
 </p>
 
 
-</a>
+</div>
 
+)
 
-))
+})
+
 }
-
 
 
 </div>
 
 
 </section>
-
 
 )
 

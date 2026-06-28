@@ -32,12 +32,12 @@ Royal Gurukul Spoken English
 
 
 <p>
-📍 Your Address Here
+📍 Bima Road Opposite Pioneer School
 </p>
 
 
 <p>
-📞 +91 XXXXX XXXXX
+📞 +91 7773806367
 </p>
 
 
@@ -48,7 +48,7 @@ Royal Gurukul Spoken English
 
 
 <a
-href="tel:+91XXXXXXXXXX"
+href="tel:+917773806367"
 className="contact-btn"
 >
 
@@ -59,7 +59,7 @@ Call Now
 
 
 <a
-href="https://wa.me/91XXXXXXXXXX"
+href="https://wa.me/917773806367"
 target="_blank"
 rel="noreferrer"
 className="contact-btn whatsapp"

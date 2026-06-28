@@ -9,7 +9,7 @@ import Videos from "./components/Videos";
 import Instagram from "./components/Instagram";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import WhatAppFloat from "./components/WhatAppFloat";
+import WhatsAppFloat from "./components/WhatsAppFloat";
 
 
 function App(){

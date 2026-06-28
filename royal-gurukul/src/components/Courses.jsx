@@ -37,9 +37,10 @@ Improve speaking, grammar and daily communication skills.
 
 
 <div className="course-card">
+    <img src=""></img>
 
 <h3>
-💼 Personality Development
+💼 Computer Classes
 </h3>
 
 <p>
@@ -61,8 +62,6 @@ Prepare for interviews with communication practice and guidance.
 </p>
 
 </div>
-
-
 
 </div>
 
